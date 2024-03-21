@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 50px;
+}
+.error{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+    width: 100%;
+    height: 40vw;
+    h1{
+        font-size: 5rem;
+    }
+    .btndiv{
+        .btn{
+            margin: .3rem;
+            font-size: 1rem;
+            padding: .5rem;
+            border-radius: 1rem;
+            background-color: transparent;
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .btn:hover{
+            color: white;
+            background-color: rgb(86, 142, 211);
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+ 
+}
